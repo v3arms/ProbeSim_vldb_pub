@@ -12,7 +12,12 @@
 vector<string> readfile(string file)
 {
 	vector<string> vec;
+	errno = 0;
 	ifstream infile(file);
+	if (errno != 0) {
+		cerr << "Cannot open query file.\n";
+		exit(EXIT_FAILURE);
+	}
 	while(infile.good())
 	{
 		std::string id;
@@ -27,7 +32,12 @@ vector<string> readfile(string file)
 
 int readfile(string file, vector<int> &vec, int k)
 {
+	errno = 0;
 	ifstream infile(file);
+	if (errno != 0) {
+		cerr << strerror(errno);
+		exit(EXIT_FAILURE);
+	}
 	int cnt = 0;
 	while(infile.good() && cnt < k)
 	{
@@ -46,7 +56,12 @@ int readfile(string file, vector<int> &vec, int k)
 
 int readfile2(string file, vector<int> &vec, int k)
 {
+	errno = 0;
 	ifstream infile(file);
+	if (errno != 0) {
+		cerr << strerror(errno);
+		exit(EXIT_FAILURE);
+	}
 	int cnt = 0;
 	double thres = 0;
 	while(infile.good())
@@ -70,7 +85,12 @@ int readfile2(string file, vector<int> &vec, int k)
 
 int readfile(string file, vector<pair<int, double> > &vec)
 {
+	errno = 0;
 	ifstream infile(file);
+	if (errno != 0) {
+		cerr << strerror(errno);
+		exit(EXIT_FAILURE);
+	}
 	int cnt = 0;
 	while(infile.good())
 	{
@@ -93,7 +113,12 @@ int readfile(string file, vector<pair<int, double> > &vec)
 
 int readfile(string file, unordered_map<int, double> &map)
 {
+	errno = 0;
 	ifstream infile(file);
+	if (errno != 0) {
+		cerr << strerror(errno);
+		exit(EXIT_FAILURE);
+	}
 	int cnt = 0;
 	while(infile.good())
 	{

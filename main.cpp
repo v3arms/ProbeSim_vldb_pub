@@ -30,17 +30,22 @@ int main(int argc, char** argv){
 	string qf = "";
 	vector<string> queryNode;
 	double eps = 0.005;
+	int topk = -1;
 
 	if (argc < 3) 
 		usage();
 
 	string data_dir(argv[1]), queryfile(argv[2]), output_dir(data_dir + "_output");
+	if (data_dir.back() == '/')
+		data_dir.pop_back();
 
 	for (int i = 3; i < argc; i++) {
 		if (!strncmp(argv[i], "-e", 2))
 			eps = strtod(argv[++i], NULL);
 		else if (!strncmp(argv[i], "-o", 2))
 			output_dir = string(argv[++i]);
+		else if (!strncmp(argv[i], "-k", 2))
+			topk = strtol(argv[++i], NULL, 10);
 		else
 			usage();
 	}
@@ -94,7 +99,10 @@ int main(int argc, char** argv){
 
 		ofstream of_res(ss_out.str());
 		std::cout << ss_out.str() << " " << sims.size() << std::endl;
-		for(int j=0; j<sims.size(); j++)
+
+		if (topk <= 0)
+			topk = sims.size();
+		for(int j = 0; j < topk; j++)
 			of_res << queryNode[i] << "," << node2id[to_string(int(sims[j].first))].get<std::string>() << "," << sims[j].second << '\n';
 		
 		of_res.flush(); 
