@@ -71,7 +71,7 @@ try :
 except OSError :
     pass
 
-output_file = splitext(sys.argv[1])[0] + ".edgelist"
+output_file = "data.edgelist"
 G = nx.from_scipy_sparse_matrix(A, create_using=nx.DiGraph)
 nx.write_edgelist(G, output_dir + '/' + output_file, data=False)
 
