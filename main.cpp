@@ -20,7 +20,7 @@ using json = nlohmann::json;
 void usage() {
 	cerr << "./ssrank [data_dir] [query_file] [-o <output dir, default: 'data_dir_name_output'>] [ -e<eps, default: 0.005>] " << endl;
 	cerr << "data_dir format :\ndata_dir/\n\tgraph.edgelist\n\tid2node.json\n\tnode2id.json\n";
-	cerr << "Example : ./ssrank nppro query/0.query -q query/0.query" << endl;
+	// cerr << "Example : ./ssrank nppro query/0.query -q query/0.query" << endl;
 	exit(EXIT_SUCCESS);
 }
 
