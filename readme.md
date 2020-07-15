@@ -14,7 +14,7 @@ Arguments:
  - `data_dir` - data directory, structure must be following :
  ```
  data_dir/
-    data.edgelist -- graph in edge list format(first line - number of nodes)
+    graph.edgelist -- graph in edge list format(first line - number of nodes)
     id2node.json -- mappings real ids <---> matrix indexes
     node2id.json
  ```
