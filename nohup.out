@@ -1,0 +1,1297 @@
+25862735
+21972040
+11152967
+30102137
+
+
+# nodes= 3146519
+...
+# nodes= 3146519
+# edges= 209599221
+reading in graph takes 34.9056 s
+graph= ../dataset/elib/elib-elib-p1/graph.edgelist
+nr= 1079266261
+node: 25862735 0	deterministically bfs one hop: 154 , 0.000414s
+23971010
+13585814
+13509396
+13252070
+24961482
+25165769
+24456695
+20636800
+20543654
+13495689
+14811476
+28267851
+11642337
+35790712
+20566636
+15360491
+14844260
+13576371
+14760979
+16992198
+27570220
+26927687
+17983681
+18163060
+31815260
+31348383
+35798242
+13541416
+31275844
+16513127
+20324705
+13347834
+25252728
+18200356
+26958497
+13535331
+18062548
+14759448
+29466100
+15535596
+24412348
+17983566
+25160925
+14241266
+13551241
+14758386
+25996026
+8971195
+20652419
+18006394
+25153952
+15081958
+14842812
+32090890
+15453286
+14349814
+14049550
+16997300
+20445837
+15319022
+22075017
+13924244
+14214406
+14099345
+28513542
+27999822
+15294064
+477652314
+26991915
+13340731
+30651388
+24498228
+14153121
+13415822
+6003837
+31417793
+15454286
+31649447
+14397269
+35475118
+13612982
+14786795
+24698529
+18140775
+13344407
+14830308
+22064490
+13393323
+14761920
+14827526
+13589585
+31339305
+13762490
+14408234
+31045382
+14708863
+14851116
+13349128
+13307874
+30968503
+24939972
+24934241
+13591629
+13475793
+13265211
+31706955
+22140028
+13752033
+15319434
+28603231
+
+# nodes= 1125122
+...
+# nodes= 1125122
+# edges= 6594485
+reading in graph takes 0.803685 s
+graph= ../dataset/elib/exp_cites/graph.edgelist
+nr= 40203300
+node: 23971010 0	deterministically bfs one hop: 32 , 1e-05s
+tree construction time: 46.0017
+walk tree size: 579202
+2	lvl size: 314	sampleLvl size:5
+3	lvl size: 4971	sampleLvl size:5
+4	lvl size: 76698	sampleLvl size:5
+5	lvl size: 497186	sampleLvl size:5
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 120 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 3	num_random_visit= 19 , thres_random_visit= 35166
+num_deter_visit= 875 , thres_random_visit= 35166 , num_random_visit * maxRatio= 190
+level: 5	num_random_visit= 68 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 680
+level: 5	num_random_visit= 156 , thres_random_visit= 58611
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+num_deter_visit= 814 , thres_random_visit= 35166 , num_random_visit * maxRatio= 30
+level: 4	num_random_visit= 15 , thres_random_visit= 46889
+num_deter_visit= 9350 , thres_random_visit= 46889 , num_random_visit * maxRatio= 150
+level: 2	num_random_visit= 9 , thres_random_visit= 23444
+num_deter_visit= 122 , thres_random_visit= 23444 , num_random_visit * maxRatio= 90
+level: 4	num_random_visit= 52 , thres_random_visit= 46889
+num_deter_visit= 11736 , thres_random_visit= 46889 , num_random_visit * maxRatio= 520
+level: 3	num_random_visit= 40 , thres_random_visit= 35166
+num_deter_visit= 1043 , thres_random_visit= 35166 , num_random_visit * maxRatio= 400
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 668 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 37 , thres_random_visit= 46889
+num_deter_visit= 41218 , thres_random_visit= 46889 , num_random_visit * maxRatio= 370
+level: 4	num_random_visit= 74 , thres_random_visit= 46889
+num_deter_visit= 4027 , thres_random_visit= 46889 , num_random_visit * maxRatio= 740
+level: 2	num_random_visit= 3 , thres_random_visit= 23444
+num_deter_visit= 75 , thres_random_visit= 23444 , num_random_visit * maxRatio= 30
+level: 4	num_random_visit= 62 , thres_random_visit= 46889
+num_deter_visit= 22544 , thres_random_visit= 46889 , num_random_visit * maxRatio= 620
+level: 5	num_random_visit= 33 , thres_random_visit= 58611
+level: 2	num_random_visit= 62 , thres_random_visit= 23444
+num_deter_visit= 1328 , thres_random_visit= 23444 , num_random_visit * maxRatio= 620
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 2	num_random_visit= 45 , thres_random_visit= 23444
+num_deter_visit= 487 , thres_random_visit= 23444 , num_random_visit * maxRatio= 450
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+probe cost est time: 0.037525
+maxStep= 5
+trunStep= 5
+2	0	123	2132
+3	0	65	3401
+4	0	240	88875
+5	1	0	0
+calculateResult time: 5.03003
+walk tree time cost: 51.1197
+../dataset/elib/exp_cites_output/result0 602300
+node: 13585814 17960	deterministically bfs one hop: 17 , 1.4e-05s
+tree construction time: 227.699
+walk tree size: 1576986
+2	lvl size: 557	sampleLvl size:5
+3	lvl size: 13126	sampleLvl size:5
+4	lvl size: 349286	sampleLvl size:5
+5	lvl size: 1213999	sampleLvl size:5
+level: 5	num_random_visit= 9 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 90
+level: 2	num_random_visit= 32 , thres_random_visit= 23444
+num_deter_visit= 1512 , thres_random_visit= 23444 , num_random_visit * maxRatio= 320
+level: 3	num_random_visit= 210 , thres_random_visit= 35166
+num_deter_visit= 25974 , thres_random_visit= 35166 , num_random_visit * maxRatio= 2100
+level: 2	num_random_visit= 5 , thres_random_visit= 23444
+num_deter_visit= 266 , thres_random_visit= 23444 , num_random_visit * maxRatio= 50
+level: 5	num_random_visit= 10 , thres_random_visit= 58611
+level: 3	num_random_visit= 82 , thres_random_visit= 35166
+num_deter_visit= 1774 , thres_random_visit= 35166 , num_random_visit * maxRatio= 820
+level: 4	num_random_visit= 9 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 90
+level: 4	num_random_visit= 280 , thres_random_visit= 46889
+level: 2	num_random_visit= 37 , thres_random_visit= 23444
+num_deter_visit= 855 , thres_random_visit= 23444 , num_random_visit * maxRatio= 370
+level: 5	num_random_visit= 482 , thres_random_visit= 58611
+level: 3	num_random_visit= 5 , thres_random_visit= 35166
+num_deter_visit= 1774 , thres_random_visit= 35166 , num_random_visit * maxRatio= 50
+level: 4	num_random_visit= 4 , thres_random_visit= 46889
+level: 4	num_random_visit= 33 , thres_random_visit= 46889
+level: 2	num_random_visit= 11 , thres_random_visit= 23444
+num_deter_visit= 1149 , thres_random_visit= 23444 , num_random_visit * maxRatio= 110
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 214 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 9832 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 127 , thres_random_visit= 58611
+level: 2	num_random_visit= 12 , thres_random_visit= 23444
+num_deter_visit= 1214 , thres_random_visit= 23444 , num_random_visit * maxRatio= 120
+level: 4	num_random_visit= 25 , thres_random_visit= 46889
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+probe cost est time: 0.093681
+maxStep= 5
+trunStep= 5
+2	0	97	4996
+3	0	301	39568
+4	1	0	0
+5	1	0	0
+23971010
+13585814
+13509396
+13252070
+24961482
+25165769
+24456695
+20636800
+20543654
+13495689
+14811476
+28267851
+11642337
+35790712
+20566636
+15360491
+14844260
+13576371
+14760979
+16992198
+27570220
+26927687
+17983681
+18163060
+31815260
+31348383
+35798242
+13541416
+31275844
+16513127
+20324705
+13347834
+25252728
+18200356
+26958497
+13535331
+18062548
+14759448
+29466100
+15535596
+24412348
+17983566
+25160925
+14241266
+13551241
+14758386
+25996026
+8971195
+20652419
+18006394
+25153952
+15081958
+14842812
+32090890
+15453286
+14349814
+14049550
+16997300
+20445837
+15319022
+22075017
+13924244
+14214406
+14099345
+28513542
+27999822
+15294064
+477652314
+26991915
+13340731
+30651388
+24498228
+14153121
+13415822
+6003837
+31417793
+15454286
+31649447
+14397269
+35475118
+13612982
+14786795
+24698529
+18140775
+13344407
+14830308
+22064490
+13393323
+14761920
+14827526
+13589585
+31339305
+13762490
+14408234
+31045382
+14708863
+14851116
+13349128
+13307874
+30968503
+24939972
+24934241
+13591629
+13475793
+13265211
+31706955
+22140028
+13752033
+15319434
+28603231
+
+# nodes= 1125122
+...
+# nodes= 1125122
+# edges= 6594485
+reading in graph takes 0.758223 s
+graph= ../dataset/elib/exp_cites/graph.edgelist
+nr= 40203300
+node: 23971010 0	deterministically bfs one hop: 32 , 9e-06s
+tree construction time: 41.1997
+walk tree size: 579312
+2	lvl size: 314	sampleLvl size:5
+3	lvl size: 4971	sampleLvl size:5
+4	lvl size: 76778	sampleLvl size:5
+5	lvl size: 497216	sampleLvl size:5
+level: 2	num_random_visit= 8 , thres_random_visit= 23444
+num_deter_visit= 228 , thres_random_visit= 23444 , num_random_visit * maxRatio= 80
+level: 4	num_random_visit= 25 , thres_random_visit= 46889
+num_deter_visit= 11520 , thres_random_visit= 46889 , num_random_visit * maxRatio= 250
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 178 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 1780
+level: 5	num_random_visit= 91 , thres_random_visit= 58611
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 179 , thres_random_visit= 23444
+num_deter_visit= 486 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1790
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 337 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 3	num_random_visit= 71 , thres_random_visit= 35166
+num_deter_visit= 2202 , thres_random_visit= 35166 , num_random_visit * maxRatio= 710
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 3	num_random_visit= 7 , thres_random_visit= 35166
+num_deter_visit= 929 , thres_random_visit= 35166 , num_random_visit * maxRatio= 70
+level: 3	num_random_visit= 85 , thres_random_visit= 35166
+num_deter_visit= 4216 , thres_random_visit= 35166 , num_random_visit * maxRatio= 850
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 4419 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 4	num_random_visit= 112 , thres_random_visit= 46889
+num_deter_visit= 18415 , thres_random_visit= 46889 , num_random_visit * maxRatio= 1120
+level: 2	num_random_visit= 3 , thres_random_visit= 23444
+num_deter_visit= 96 , thres_random_visit= 23444 , num_random_visit * maxRatio= 30
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+level: 5	num_random_visit= 342 , thres_random_visit= 58611
+level: 4	num_random_visit= 1414 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 14140
+level: 3	num_random_visit= 37 , thres_random_visit= 35166
+num_deter_visit= 2383 , thres_random_visit= 35166 , num_random_visit * maxRatio= 370
+probe cost est time: 0.031689
+maxStep= 5
+trunStep= 5
+2	0	195	5230
+3	0	202	10067
+4	1	139	29937
+5	1	0	0
+calculateResult time: 6.82493
+walk tree time cost: 48.099
+../dataset/elib/exp_cites_output/result0 330379
+node: 13585814 17960	deterministically bfs one hop: 17 , 1.3e-05s
+tree construction time: 184.234
+walk tree size: 1577239
+2	lvl size: 557	sampleLvl size:5
+3	lvl size: 13127	sampleLvl size:5
+4	lvl size: 349236	sampleLvl size:5
+5	lvl size: 1214301	sampleLvl size:5
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 290 , thres_random_visit= 35166
+num_deter_visit= 16411 , thres_random_visit= 35166 , num_random_visit * maxRatio= 2900
+level: 5	num_random_visit= 150 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 1500
+level: 4	num_random_visit= 205 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 2050
+level: 4	num_random_visit= 4 , thres_random_visit= 46889
+level: 5	num_random_visit= 12 , thres_random_visit= 58611
+level: 4	num_random_visit= 410 , thres_random_visit= 46889
+level: 3	num_random_visit= 105 , thres_random_visit= 35166
+num_deter_visit= 18723 , thres_random_visit= 35166 , num_random_visit * maxRatio= 1050
+level: 2	num_random_visit= 7 , thres_random_visit= 23444
+num_deter_visit= 339 , thres_random_visit= 23444 , num_random_visit * maxRatio= 70
+level: 2	num_random_visit= 100 , thres_random_visit= 23444
+num_deter_visit= 2259 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1000
+level: 2	num_random_visit= 16 , thres_random_visit= 23444
+num_deter_visit= 373 , thres_random_visit= 23444 , num_random_visit * maxRatio= 160
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+num_deter_visit= 11878 , thres_random_visit= 35166 , num_random_visit * maxRatio= 30
+level: 4	num_random_visit= 23 , thres_random_visit= 46889
+level: 4	num_random_visit= 267 , thres_random_visit= 46889
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 39 , thres_random_visit= 35166
+num_deter_visit= 12545 , thres_random_visit= 35166 , num_random_visit * maxRatio= 390
+level: 2	num_random_visit= 145 , thres_random_visit= 23444
+num_deter_visit= 2537 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1450
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 2	num_random_visit= 72 , thres_random_visit= 23444
+num_deter_visit= 1111 , thres_random_visit= 23444 , num_random_visit * maxRatio= 720
+level: 5	num_random_visit= 43 , thres_random_visit= 58611
+probe cost est time: 0.101171
+maxStep= 5
+trunStep= 5
+2	0	340	6619
+3	0	438	59558
+4	1	0	0
+5	1	1	1
+calculateResult time: 15.5577
+walk tree time cost: 200.019
+../dataset/elib/exp_cites_output/result1 503297
+node: 13509396 30762	deterministically bfs one hop: 15 , 2e-05s
+tree construction time: 122.817
+walk tree size: 1299006
+2	lvl size: 665	sampleLvl size:5
+3	lvl size: 16936	sampleLvl size:5
+4	lvl size: 276493	sampleLvl size:5
+5	lvl size: 1004896	sampleLvl size:5
+level: 5	num_random_visit= 11 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 110
+level: 5	num_random_visit= 173 , thres_random_visit= 58611
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 5 , thres_random_visit= 23444
+num_deter_visit= 480 , thres_random_visit= 23444 , num_random_visit * maxRatio= 50
+level: 2	num_random_visit= 42 , thres_random_visit= 23444
+num_deter_visit= 229 , thres_random_visit= 23444 , num_random_visit * maxRatio= 420
+level: 3	num_random_visit= 55 , thres_random_visit= 35166
+num_deter_visit= 3758 , thres_random_visit= 35166 , num_random_visit * maxRatio= 550
+level: 2	num_random_visit= 8 , thres_random_visit= 23444
+num_deter_visit= 281 , thres_random_visit= 23444 , num_random_visit * maxRatio= 80
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 59 , thres_random_visit= 46889
+num_deter_visit= 7439 , thres_random_visit= 46889 , num_random_visit * maxRatio= 590
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 261 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 5	num_random_visit= 374 , thres_random_visit= 58611
+level: 5	num_random_visit= 2 , thres_random_visit= 58611
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+num_deter_visit= 7860 , thres_random_visit= 35166 , num_random_visit * maxRatio= 30
+level: 4	num_random_visit= 20 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 200
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+num_deter_visit= 6823 , thres_random_visit= 35166 , num_random_visit * maxRatio= 30
+level: 3	num_random_visit= 572 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 5720
+level: 3	num_random_visit= 5 , thres_random_visit= 35166
+level: 4	num_random_visit= 3 , thres_random_visit= 46889
+level: 5	num_random_visit= 76 , thres_random_visit= 58611
+probe cost est time: 0.082311
+maxStep= 5
+trunStep= 5
+2	0	60	1252
+3	1	61	18441
+4	1	60	7440
+5	1	0	0
+calculateResult time: 41.8304
+walk tree time cost: 164.959
+../dataset/elib/exp_cites_output/result2 635996
+node: 13252070 49545	deterministically bfs one hop: 20 , 6e-06s
+tree construction time: 13.6878
+walk tree size: 69509
+2	lvl size: 82	sampleLvl size:5
+3	lvl size: 982	sampleLvl size:5
+4	lvl size: 6683	sampleLvl size:5
+5	lvl size: 61741	sampleLvl size:5
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 262 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 13 , thres_random_visit= 46889
+num_deter_visit= 359 , thres_random_visit= 46889 , num_random_visit * maxRatio= 130
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 40 , thres_random_visit= 23444
+num_deter_visit= 100 , thres_random_visit= 23444 , num_random_visit * maxRatio= 400
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 204 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 189 , thres_random_visit= 58611
+num_deter_visit= 5025 , thres_random_visit= 58611 , num_random_visit * maxRatio= 1890
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 49 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+num_deter_visit= 730 , thres_random_visit= 46889 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 3 , thres_random_visit= 23444
+num_deter_visit= 3 , thres_random_visit= 23444 , num_random_visit * maxRatio= 30
+level: 5	num_random_visit= 36 , thres_random_visit= 58611
+num_deter_visit= 6801 , thres_random_visit= 58611 , num_random_visit * maxRatio= 360
+level: 4	num_random_visit= 40 , thres_random_visit= 46889
+num_deter_visit= 6819 , thres_random_visit= 46889 , num_random_visit * maxRatio= 400
+level: 2	num_random_visit= 37 , thres_random_visit= 23444
+num_deter_visit= 101 , thres_random_visit= 23444 , num_random_visit * maxRatio= 370
+level: 4	num_random_visit= 200 , thres_random_visit= 46889
+num_deter_visit= 1360 , thres_random_visit= 46889 , num_random_visit * maxRatio= 2000
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+probe cost est time: 0.002429
+maxStep= 5
+trunStep= 5
+2	0	83	254
+3	0	7	469
+4	0	256	9269
+5	0	228	11829
+calculateResult time: 0.446553
+walk tree time cost: 14.1491
+../dataset/elib/exp_cites_output/result3 577870
+node: 24961482 63055	deterministically bfs one hop: 101 , 0.000159s
+tree construction time: 2193.95
+walk tree size: 6346451
+2	lvl size: 11211	sampleLvl size:5
+3	lvl size: 556727	sampleLvl size:5
+4	lvl size: 2789213	sampleLvl size:6
+5	lvl size: 2989198	sampleLvl size:7
+level: 4	num_random_visit= 302 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 3020
+level: 5	num_random_visit= 150 , thres_random_visit= 58611
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 2	num_random_visit= 13 , thres_random_visit= 23444
+num_deter_visit= 7469 , thres_random_visit= 23444 , num_random_visit * maxRatio= 130
+level: 2	num_random_visit= 8 , thres_random_visit= 23444
+num_deter_visit= 5747 , thres_random_visit= 23444 , num_random_visit * maxRatio= 80
+level: 2	num_random_visit= 14 , thres_random_visit= 23444
+num_deter_visit= 8486 , thres_random_visit= 23444 , num_random_visit * maxRatio= 140
+level: 2	num_random_visit= 16 , thres_random_visit= 23444
+num_deter_visit= 9791 , thres_random_visit= 23444 , num_random_visit * maxRatio= 160
+level: 4	num_random_visit= 336 , thres_random_visit= 46889
+level: 4	num_random_visit= 26 , thres_random_visit= 46889
+level: 3	num_random_visit= 14 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 140
+level: 2	num_random_visit= 63 , thres_random_visit= 23444
+num_deter_visit= 4069 , thres_random_visit= 23444 , num_random_visit * maxRatio= 630
+level: 3	num_random_visit= 465 , thres_random_visit= 35166
+level: 5	num_random_visit= 454 , thres_random_visit= 58611
+level: 3	num_random_visit= 245 , thres_random_visit= 35166
+level: 4	num_random_visit= 1341 , thres_random_visit= 46889
+level: 3	num_random_visit= 50 , thres_random_visit= 35166
+level: 5	num_random_visit= 350 , thres_random_visit= 58611
+level: 5	num_random_visit= 15 , thres_random_visit= 58611
+level: 5	num_random_visit= 675 , thres_random_visit= 58611
+level: 4	num_random_visit= 844 , thres_random_visit= 46889
+level: 3	num_random_visit= 350 , thres_random_visit= 35166
+level: 4	num_random_visit= 23 , thres_random_visit= 46889
+level: 5	num_random_visit= 170 , thres_random_visit= 58611
+probe cost est time: 0.406851
+maxStep= 5
+trunStep= 5
+2	0	114	35562
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 145.021
+walk tree time cost: 2339.88
+../dataset/elib/exp_cites_output/result4 500006
+node: 25165769 77752	deterministically bfs one hop: 140 , 0.000161s
+tree construction time: 3030.06
+walk tree size: 7601730
+2	lvl size: 10823	sampleLvl size:5
+3	lvl size: 910078	sampleLvl size:5
+4	lvl size: 3620283	sampleLvl size:9
+5	lvl size: 3060405	sampleLvl size:7
+level: 4	num_random_visit= 703 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 7030
+level: 5	num_random_visit= 932 , thres_random_visit= 58611
+level: 5	num_random_visit= 11 , thres_random_visit= 58611
+level: 4	num_random_visit= 514 , thres_random_visit= 46889
+level: 5	num_random_visit= 1231 , thres_random_visit= 58611
+level: 4	num_random_visit= 32 , thres_random_visit= 46889
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 3	num_random_visit= 50 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 500
+level: 2	num_random_visit= 5 , thres_random_visit= 23444
+num_deter_visit= 237 , thres_random_visit= 23444 , num_random_visit * maxRatio= 50
+level: 2	num_random_visit= 51 , thres_random_visit= 23444
+num_deter_visit= 7122 , thres_random_visit= 23444 , num_random_visit * maxRatio= 510
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 276 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 2	num_random_visit= 109 , thres_random_visit= 23444
+num_deter_visit= 8837 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1090
+level: 2	num_random_visit= 27 , thres_random_visit= 23444
+num_deter_visit= 4348 , thres_random_visit= 23444 , num_random_visit * maxRatio= 270
+level: 5	num_random_visit= 35 , thres_random_visit= 58611
+level: 4	num_random_visit= 346 , thres_random_visit= 46889
+level: 4	num_random_visit= 478 , thres_random_visit= 46889
+level: 4	num_random_visit= 325 , thres_random_visit= 46889
+level: 3	num_random_visit= 18 , thres_random_visit= 35166
+level: 3	num_random_visit= 325 , thres_random_visit= 35166
+level: 4	num_random_visit= 48 , thres_random_visit= 46889
+level: 3	num_random_visit= 372 , thres_random_visit= 35166
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 3	num_random_visit= 39 , thres_random_visit= 35166
+level: 4	num_random_visit= 1646 , thres_random_visit= 46889
+level: 5	num_random_visit= 3445 , thres_random_visit= 58611
+probe cost est time: 0.573945
+maxStep= 5
+trunStep= 5
+2	0	194	20820
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 130.339
+walk tree time cost: 3161.68
+../dataset/elib/exp_cites_output/result5 474045
+node: 24456695 61285	deterministically bfs one hop: 59 , 0.000212s
+tree construction time: 2911.38
+walk tree size: 7128419
+2	lvl size: 9492	sampleLvl size:5
+3	lvl size: 452307	sampleLvl size:5
+4	lvl size: 3597249	sampleLvl size:8
+5	lvl size: 3069311	sampleLvl size:7
+level: 5	num_random_visit= 592 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 5920
+level: 3	num_random_visit= 292 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 2920
+level: 4	num_random_visit= 3137 , thres_random_visit= 46889
+level: 5	num_random_visit= 29 , thres_random_visit= 58611
+level: 4	num_random_visit= 119 , thres_random_visit= 46889
+level: 3	num_random_visit= 210 , thres_random_visit= 35166
+level: 5	num_random_visit= 39 , thres_random_visit= 58611
+level: 4	num_random_visit= 12 , thres_random_visit= 46889
+level: 4	num_random_visit= 365 , thres_random_visit= 46889
+level: 4	num_random_visit= 6 , thres_random_visit= 46889
+level: 2	num_random_visit= 7 , thres_random_visit= 23444
+num_deter_visit= 859 , thres_random_visit= 23444 , num_random_visit * maxRatio= 70
+level: 2	num_random_visit= 19 , thres_random_visit= 23444
+num_deter_visit= 1678 , thres_random_visit= 23444 , num_random_visit * maxRatio= 190
+level: 4	num_random_visit= 64 , thres_random_visit= 46889
+level: 5	num_random_visit= 15 , thres_random_visit= 58611
+level: 3	num_random_visit= 105 , thres_random_visit= 35166
+level: 4	num_random_visit= 8 , thres_random_visit= 46889
+level: 2	num_random_visit= 6 , thres_random_visit= 23444
+num_deter_visit= 1902 , thres_random_visit= 23444 , num_random_visit * maxRatio= 60
+level: 2	num_random_visit= 106 , thres_random_visit= 23444
+num_deter_visit= 14243 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1060
+level: 2	num_random_visit= 52 , thres_random_visit= 23444
+num_deter_visit= 7437 , thres_random_visit= 23444 , num_random_visit * maxRatio= 520
+level: 3	num_random_visit= 24 , thres_random_visit= 35166
+level: 5	num_random_visit= 692 , thres_random_visit= 58611
+level: 4	num_random_visit= 176 , thres_random_visit= 46889
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+level: 5	num_random_visit= 12 , thres_random_visit= 58611
+level: 5	num_random_visit= 555 , thres_random_visit= 58611
+probe cost est time: 0.525595
+maxStep= 5
+trunStep= 5
+2	0	190	26119
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 129.126
+walk tree time cost: 3041.76
+../dataset/elib/exp_cites_output/result6 505511
+node: 20636800 92590	deterministically bfs one hop: 10 , 0.000123s
+tree construction time: 1525.96
+walk tree size: 5179482
+2	lvl size: 8016	sampleLvl size:5
+3	lvl size: 254301	sampleLvl size:5
+4	lvl size: 2372884	sampleLvl size:5
+5	lvl size: 2544270	sampleLvl size:6
+level: 5	num_random_visit= 532 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 5320
+level: 4	num_random_visit= 84 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 840
+level: 4	num_random_visit= 35 , thres_random_visit= 46889
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 115 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 1042 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 3	num_random_visit= 179 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 1790
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+level: 4	num_random_visit= 158 , thres_random_visit= 46889
+level: 5	num_random_visit= 822 , thres_random_visit= 58611
+level: 5	num_random_visit= 259 , thres_random_visit= 58611
+level: 2	num_random_visit= 70 , thres_random_visit= 23444
+num_deter_visit= 2319 , thres_random_visit= 23444 , num_random_visit * maxRatio= 700
+level: 3	num_random_visit= 100 , thres_random_visit= 35166
+level: 3	num_random_visit= 11 , thres_random_visit= 35166
+level: 2	num_random_visit= 39 , thres_random_visit= 23444
+num_deter_visit= 2590 , thres_random_visit= 23444 , num_random_visit * maxRatio= 390
+level: 5	num_random_visit= 507 , thres_random_visit= 58611
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 111 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 3	num_random_visit= 36 , thres_random_visit= 35166
+level: 4	num_random_visit= 403 , thres_random_visit= 46889
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+level: 5	num_random_visit= 74 , thres_random_visit= 58611
+level: 4	num_random_visit= 7 , thres_random_visit= 46889
+probe cost est time: 0.38184
+maxStep= 5
+trunStep= 5
+2	0	117	6177
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 171.505
+walk tree time cost: 1698.39
+../dataset/elib/exp_cites_output/result7 542667
+node: 20543654 67303	deterministically bfs one hop: 68 , 0.000146s
+tree construction time: 2518.69
+walk tree size: 6703939
+2	lvl size: 7632	sampleLvl size:5
+3	lvl size: 473184	sampleLvl size:5
+4	lvl size: 3178398	sampleLvl size:7
+5	lvl size: 3044656	sampleLvl size:7
+level: 4	num_random_visit= 15 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 150
+level: 3	num_random_visit= 65 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 650
+level: 3	num_random_visit= 11 , thres_random_visit= 35166
+level: 2	num_random_visit= 79 , thres_random_visit= 23444
+num_deter_visit= 3150 , thres_random_visit= 23444 , num_random_visit * maxRatio= 790
+level: 5	num_random_visit= 8 , thres_random_visit= 58611
+level: 5	num_random_visit= 1116 , thres_random_visit= 58611
+level: 4	num_random_visit= 356 , thres_random_visit= 46889
+level: 5	num_random_visit= 73 , thres_random_visit= 58611
+level: 4	num_random_visit= 138 , thres_random_visit= 46889
+level: 2	num_random_visit= 124 , thres_random_visit= 23444
+num_deter_visit= 5891 , thres_random_visit= 23444 , num_random_visit * maxRatio= 1240
+level: 5	num_random_visit= 11 , thres_random_visit= 58611
+level: 4	num_random_visit= 62 , thres_random_visit= 46889
+level: 2	num_random_visit= 13 , thres_random_visit= 23444
+num_deter_visit= 13105 , thres_random_visit= 23444 , num_random_visit * maxRatio= 130
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 433 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+level: 4	num_random_visit= 1880 , thres_random_visit= 46889
+level: 3	num_random_visit= 11 , thres_random_visit= 35166
+level: 3	num_random_visit= 92 , thres_random_visit= 35166
+level: 5	num_random_visit= 300 , thres_random_visit= 58611
+level: 4	num_random_visit= 37 , thres_random_visit= 46889
+level: 2	num_random_visit= 64 , thres_random_visit= 23444
+num_deter_visit= 7244 , thres_random_visit= 23444 , num_random_visit * maxRatio= 640
+level: 3	num_random_visit= 116 , thres_random_visit= 35166
+level: 5	num_random_visit= 775 , thres_random_visit= 58611
+probe cost est time: 0.479634
+maxStep= 5
+trunStep= 5
+2	0	282	29823
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 133.627
+walk tree time cost: 2653.51
+../dataset/elib/exp_cites_output/result8 527812
+node: 13495689 111375	deterministically bfs one hop: 218 , 0.000165s
+tree construction time: 2560.88
+walk tree size: 6946379
+2	lvl size: 10858	sampleLvl size:5
+3	lvl size: 782085	sampleLvl size:5
+4	lvl size: 3154839	sampleLvl size:7
+5	lvl size: 2998378	sampleLvl size:7
+level: 5	num_random_visit= 74 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 740
+level: 2	num_random_visit= 77 , thres_random_visit= 23444
+num_deter_visit= 1322 , thres_random_visit= 23444 , num_random_visit * maxRatio= 770
+level: 4	num_random_visit= 72 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 720
+level: 3	num_random_visit= 5 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 50
+level: 2	num_random_visit= 6 , thres_random_visit= 23444
+num_deter_visit= 447 , thres_random_visit= 23444 , num_random_visit * maxRatio= 60
+level: 4	num_random_visit= 8 , thres_random_visit= 46889
+level: 5	num_random_visit= 28 , thres_random_visit= 58611
+level: 3	num_random_visit= 35 , thres_random_visit= 35166
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+level: 5	num_random_visit= 1626 , thres_random_visit= 58611
+level: 4	num_random_visit= 236 , thres_random_visit= 46889
+level: 4	num_random_visit= 435 , thres_random_visit= 46889
+level: 4	num_random_visit= 513 , thres_random_visit= 46889
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 5	num_random_visit= 434 , thres_random_visit= 58611
+level: 2	num_random_visit= 6 , thres_random_visit= 23444
+num_deter_visit= 376 , thres_random_visit= 23444 , num_random_visit * maxRatio= 60
+level: 3	num_random_visit= 11 , thres_random_visit= 35166
+level: 3	num_random_visit= 15 , thres_random_visit= 35166
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+level: 5	num_random_visit= 4 , thres_random_visit= 58611
+level: 3	num_random_visit= 19 , thres_random_visit= 35166
+level: 4	num_random_visit= 198 , thres_random_visit= 46889
+level: 2	num_random_visit= 28 , thres_random_visit= 23444
+num_deter_visit= 10908 , thres_random_visit= 23444 , num_random_visit * maxRatio= 280
+level: 2	num_random_visit= 546 , thres_random_visit= 23444
+num_deter_visit= 11065 , thres_random_visit= 23444 , num_random_visit * maxRatio= 5460
+probe cost est time: 0.525595
+maxStep= 5
+trunStep= 5
+2	0	663	24118
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 85.5687
+walk tree time cost: 2647.76
+../dataset/elib/exp_cites_output/result9 584732
+node: 14811476 113916	deterministically bfs one hop: 19 , 0.000124s
+tree construction time: 1900.27
+walk tree size: 5646200
+2	lvl size: 6943	sampleLvl size:5
+3	lvl size: 228623	sampleLvl size:5
+4	lvl size: 2529624	sampleLvl size:6
+5	lvl size: 2880990	sampleLvl size:7
+level: 4	num_random_visit= 15 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 150
+level: 5	num_random_visit= 783 , thres_random_visit= 58611
+level: 3	num_random_visit= 167 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 1670
+level: 2	num_random_visit= 7 , thres_random_visit= 23444
+num_deter_visit= 304 , thres_random_visit= 23444 , num_random_visit * maxRatio= 70
+level: 3	num_random_visit= 235 , thres_random_visit= 35166
+level: 2	num_random_visit= 33 , thres_random_visit= 23444
+num_deter_visit= 2610 , thres_random_visit= 23444 , num_random_visit * maxRatio= 330
+level: 5	num_random_visit= 13649 , thres_random_visit= 58611
+level: 5	num_random_visit= 2901 , thres_random_visit= 58611
+level: 5	num_random_visit= 817 , thres_random_visit= 58611
+level: 5	num_random_visit= 31 , thres_random_visit= 58611
+level: 4	num_random_visit= 974 , thres_random_visit= 46889
+level: 4	num_random_visit= 98 , thres_random_visit= 46889
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 45 , thres_random_visit= 46889
+level: 3	num_random_visit= 21 , thres_random_visit= 35166
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 223 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 4	num_random_visit= 419 , thres_random_visit= 46889
+level: 5	num_random_visit= 669 , thres_random_visit= 58611
+level: 4	num_random_visit= 4 , thres_random_visit= 46889
+level: 3	num_random_visit= 6 , thres_random_visit= 35166
+level: 2	num_random_visit= 20 , thres_random_visit= 23444
+num_deter_visit= 6064 , thres_random_visit= 23444 , num_random_visit * maxRatio= 200
+level: 3	num_random_visit= 44 , thres_random_visit= 35166
+level: 5	num_random_visit= 16 , thres_random_visit= 58611
+probe cost est time: 0.423027
+maxStep= 5
+trunStep= 5
+2	0	65	9202
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 120.263
+walk tree time cost: 2021.6
+../dataset/elib/exp_cites_output/result10 613915
+node: 28267851 23050	deterministically bfs one hop: 70 , 0.000439s
+tree construction time: 837.261
+walk tree size: 3716756
+2	lvl size: 6204	sampleLvl size:5
+3	lvl size: 183491	sampleLvl size:5
+4	lvl size: 1242969	sampleLvl size:5
+5	lvl size: 2284021	sampleLvl size:5
+level: 5	num_random_visit= 42 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 420
+level: 5	num_random_visit= 638 , thres_random_visit= 58611
+level: 4	num_random_visit= 867 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 8670
+level: 2	num_random_visit= 76 , thres_random_visit= 23444
+num_deter_visit= 6144 , thres_random_visit= 23444 , num_random_visit * maxRatio= 760
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 836 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 3	num_random_visit= 176 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 1760
+level: 2	num_random_visit= 43 , thres_random_visit= 23444
+num_deter_visit= 2992 , thres_random_visit= 23444 , num_random_visit * maxRatio= 430
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 195 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+level: 3	num_random_visit= 458 , thres_random_visit= 35166
+level: 4	num_random_visit= 18 , thres_random_visit= 46889
+level: 4	num_random_visit= 3 , thres_random_visit= 46889
+level: 3	num_random_visit= 761 , thres_random_visit= 35166
+level: 5	num_random_visit= 55 , thres_random_visit= 58611
+level: 5	num_random_visit= 273 , thres_random_visit= 58611
+level: 4	num_random_visit= 5629 , thres_random_visit= 46889
+level: 4	num_random_visit= 18 , thres_random_visit= 46889
+level: 5	num_random_visit= 1685 , thres_random_visit= 58611
+level: 2	num_random_visit= 940 , thres_random_visit= 23444
+num_deter_visit= -1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 9400
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+probe cost est time: 0.268223
+maxStep= 5
+trunStep= 5
+2	1	125	10167
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 185.191
+walk tree time cost: 1023.18
+../dataset/elib/exp_cites_output/result11 620826
+node: 11642337 146494	deterministically bfs one hop: 181 , 0.000165s
+21486244
+13053825
+17057865
+8819403
+16517160
+23236655
+17263201
+26414335
+29035288
+21204633
+
+# nodes= 1125122
+...
+# nodes= 1125122
+# edges= 6594485
+reading in graph takes 0.806572 s
+graph= ../dataset/elib/exp_cites/graph.edgelist
+nr= 40203300
+node: 21486244 224405	deterministically bfs one hop: 1 , 3e-06s
+tree construction time: 2.90576
+walk tree size: 3545
+2	lvl size: 10	sampleLvl size:5
+3	lvl size: 21	sampleLvl size:5
+4	lvl size: 576	sampleLvl size:5
+5	lvl size: 2936	sampleLvl size:5
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 18 , thres_random_visit= 35166
+num_deter_visit= 506 , thres_random_visit= 35166 , num_random_visit * maxRatio= 180
+level: 2	num_random_visit= 15 , thres_random_visit= 23444
+num_deter_visit= 488 , thres_random_visit= 23444 , num_random_visit * maxRatio= 150
+level: 3	num_random_visit= 18 , thres_random_visit= 35166
+num_deter_visit= 2776 , thres_random_visit= 35166 , num_random_visit * maxRatio= 180
+level: 3	num_random_visit= 55 , thres_random_visit= 35166
+num_deter_visit= 2119 , thres_random_visit= 35166 , num_random_visit * maxRatio= 550
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 8 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 80
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 4 , thres_random_visit= 46889
+num_deter_visit= 11298 , thres_random_visit= 46889 , num_random_visit * maxRatio= 40
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 433 , thres_random_visit= 58611
+level: 3	num_random_visit= 611 , thres_random_visit= 35166
+num_deter_visit= 732 , thres_random_visit= 35166 , num_random_visit * maxRatio= 6110
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+num_deter_visit= 671 , thres_random_visit= 46889 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 18 , thres_random_visit= 35166
+num_deter_visit= 506 , thres_random_visit= 35166 , num_random_visit * maxRatio= 180
+probe cost est time: 0.005195
+maxStep= 5
+trunStep= 5
+2	0	19	492
+3	0	720	6639
+4	0	9	11972
+5	1	1	1
+calculateResult time: 1.30353
+walk tree time cost: 4.21463
+../dataset/elib/exp_cites_output/result0 152304
+node: 13053825 175054	deterministically bfs one hop: 46 , 0.000199s
+21486244
+13053825
+17057865
+8819403
+16517160
+23236655
+17263201
+26414335
+29035288
+21204633
+
+# nodes= 1125122
+...
+# nodes= 1125122
+# edges= 6594485
+reading in graph takes 0.868243 s
+graph= ../dataset/elib/exp_cites/graph.edgelist
+nr= 10050825
+node: 21486244 224405	deterministically bfs one hop: 1 , 5e-06s
+tree construction time: 0.781582
+walk tree size: 3149
+2	lvl size: 10	sampleLvl size:5
+3	lvl size: 21	sampleLvl size:5
+4	lvl size: 576	sampleLvl size:5
+5	lvl size: 2540	sampleLvl size:5
+level: 3	num_random_visit= 18 , thres_random_visit= 35166
+num_deter_visit= 506 , thres_random_visit= 35166 , num_random_visit * maxRatio= 180
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 80 , thres_random_visit= 35166
+num_deter_visit= 669 , thres_random_visit= 35166 , num_random_visit * maxRatio= 800
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 337 , thres_random_visit= 58611
+num_deter_visit= 20960 , thres_random_visit= 58611 , num_random_visit * maxRatio= 3370
+level: 3	num_random_visit= 40 , thres_random_visit= 35166
+num_deter_visit= 232 , thres_random_visit= 35166 , num_random_visit * maxRatio= 400
+level: 3	num_random_visit= 40 , thres_random_visit= 35166
+num_deter_visit= 2119 , thres_random_visit= 35166 , num_random_visit * maxRatio= 400
+level: 5	num_random_visit= 2 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 285 , thres_random_visit= 58611
+level: 5	num_random_visit= 9 , thres_random_visit= 58611
+level: 5	num_random_visit= 606 , thres_random_visit= 58611
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+num_deter_visit= 3135 , thres_random_visit= 46889 , num_random_visit * maxRatio= 20
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 45 , thres_random_visit= 35166
+num_deter_visit= 506 , thres_random_visit= 35166 , num_random_visit * maxRatio= 450
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+probe cost est time: 0.002917
+maxStep= 5
+trunStep= 5
+2	0	5	5
+3	0	223	4032
+4	0	6	3139
+5	1	337	20960
+calculateResult time: 0.350152
+walk tree time cost: 1.1348
+../dataset/elib/exp_cites_output/result0 119825
+node: 13053825 175054	deterministically bfs one hop: 46 , 0.000226s
+tree construction time: 177.378
+walk tree size: 2050033
+2	lvl size: 8428	sampleLvl size:5
+3	lvl size: 279021	sampleLvl size:5
+4	lvl size: 1000458	sampleLvl size:9
+5	lvl size: 762079	sampleLvl size:7
+level: 3	num_random_visit= 14 , thres_random_visit= 35166
+num_deter_visit= -1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 140
+level: 2	num_random_visit= 4 , thres_random_visit= 23444
+num_deter_visit= 5037 , thres_random_visit= 23444 , num_random_visit * maxRatio= 40
+level: 2	num_random_visit= 22 , thres_random_visit= 23444
+num_deter_visit= 3577 , thres_random_visit= 23444 , num_random_visit * maxRatio= 220
+level: 3	num_random_visit= 393 , thres_random_visit= 35166
+level: 2	num_random_visit= 16 , thres_random_visit= 23444
+num_deter_visit= 841 , thres_random_visit= 23444 , num_random_visit * maxRatio= 160
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 4	num_random_visit= 239 , thres_random_visit= 46889
+level: 5	num_random_visit= 477 , thres_random_visit= 58611
+level: 3	num_random_visit= 629 , thres_random_visit= 35166
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 5	num_random_visit= 3 , thres_random_visit= 58611
+level: 4	num_random_visit= 150 , thres_random_visit= 46889
+level: 4	num_random_visit= 20 , thres_random_visit= 46889
+level: 5	num_random_visit= 398 , thres_random_visit= 58611
+level: 4	num_random_visit= 60 , thres_random_visit= 46889
+level: 2	num_random_visit= 222 , thres_random_visit= 23444
+num_deter_visit= 12130 , thres_random_visit= 23444 , num_random_visit * maxRatio= 2220
+level: 3	num_random_visit= 3 , thres_random_visit= 35166
+level: 4	num_random_visit= 7 , thres_random_visit= 46889
+level: 5	num_random_visit= 6 , thres_random_visit= 58611
+level: 5	num_random_visit= 2484 , thres_random_visit= 58611
+level: 2	num_random_visit= 7 , thres_random_visit= 23444
+num_deter_visit= 4844 , thres_random_visit= 23444 , num_random_visit * maxRatio= 70
+level: 4	num_random_visit= 5 , thres_random_visit= 46889
+level: 4	num_random_visit= 39 , thres_random_visit= 46889
+level: 4	num_random_visit= 750 , thres_random_visit= 46889
+level: 3	num_random_visit= 13 , thres_random_visit= 35166
+level: 4	num_random_visit= 45 , thres_random_visit= 46889
+probe cost est time: 0.130404
+maxStep= 5
+trunStep= 5
+2	0	271	26429
+3	1	0	0
+4	1	0	0
+5	1	0	0
+calculateResult time: 38.9322
+walk tree time cost: 216.59
+../dataset/elib/exp_cites_output/result1 418350
+node: 17057865 898915	deterministically bfs one hop: 1 , 3e-06s
+tree construction time: 1.09955
+walk tree size: 20225
+2	lvl size: 23	sampleLvl size:5
+3	lvl size: 31	sampleLvl size:5
+4	lvl size: 5735	sampleLvl size:5
+5	lvl size: 14434	sampleLvl size:5
+level: 3	num_random_visit= 43 , thres_random_visit= 35166
+num_deter_visit= 5207 , thres_random_visit= 35166 , num_random_visit * maxRatio= 430
+level: 5	num_random_visit= 16 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 160
+level: 5	num_random_visit= 989 , thres_random_visit= 58611
+level: 5	num_random_visit= 5 , thres_random_visit= 58611
+level: 2	num_random_visit= 2 , thres_random_visit= 23444
+num_deter_visit= 84 , thres_random_visit= 23444 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 1695 , thres_random_visit= 58611
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 4 , thres_random_visit= 46889
+num_deter_visit= -1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 40
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+level: 5	num_random_visit= 43 , thres_random_visit= 58611
+level: 2	num_random_visit= 10 , thres_random_visit= 23444
+num_deter_visit= 80 , thres_random_visit= 23444 , num_random_visit * maxRatio= 100
+level: 3	num_random_visit= 15 , thres_random_visit= 35166
+num_deter_visit= 84 , thres_random_visit= 35166 , num_random_visit * maxRatio= 150
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 57 , thres_random_visit= 35166
+num_deter_visit= 5207 , thres_random_visit= 35166 , num_random_visit * maxRatio= 570
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 43 , thres_random_visit= 35166
+num_deter_visit= 5207 , thres_random_visit= 35166 , num_random_visit * maxRatio= 430
+level: 3	num_random_visit= 43 , thres_random_visit= 35166
+num_deter_visit= 5207 , thres_random_visit= 35166 , num_random_visit * maxRatio= 430
+probe cost est time: 0.007754
+maxStep= 5
+trunStep= 5
+2	0	15	167
+3	0	201	20912
+4	1	3	3
+5	1	0	0
+calculateResult time: 7.52633
+walk tree time cost: 8.63641
+../dataset/elib/exp_cites_output/result2 446505
+node: 8819403 222882	deterministically bfs one hop: 3 , 6e-06s
+tree construction time: 1.77537
+walk tree size: 52686
+2	lvl size: 35	sampleLvl size:5
+3	lvl size: 453	sampleLvl size:5
+4	lvl size: 4239	sampleLvl size:5
+5	lvl size: 47955	sampleLvl size:5
+level: 3	num_random_visit= 6 , thres_random_visit= 35166
+num_deter_visit= 968 , thres_random_visit= 35166 , num_random_visit * maxRatio= 60
+level: 2	num_random_visit= 227 , thres_random_visit= 23444
+num_deter_visit= 959 , thres_random_visit= 23444 , num_random_visit * maxRatio= 2270
+level: 3	num_random_visit= 37 , thres_random_visit= 35166
+num_deter_visit= 7163 , thres_random_visit= 35166 , num_random_visit * maxRatio= 370
+level: 3	num_random_visit= 36 , thres_random_visit= 35166
+num_deter_visit= 3983 , thres_random_visit= 35166 , num_random_visit * maxRatio= 360
+level: 5	num_random_visit= 14 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 140
+level: 5	num_random_visit= 65 , thres_random_visit= 58611
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 7 , thres_random_visit= 23444
+num_deter_visit= 7 , thres_random_visit= 23444 , num_random_visit * maxRatio= 70
+level: 4	num_random_visit= 14 , thres_random_visit= 46889
+num_deter_visit= 14 , thres_random_visit= 46889 , num_random_visit * maxRatio= 140
+level: 2	num_random_visit= 5 , thres_random_visit= 23444
+num_deter_visit= 129 , thres_random_visit= 23444 , num_random_visit * maxRatio= 50
+level: 5	num_random_visit= 221 , thres_random_visit= 58611
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 2 , thres_random_visit= 58611
+level: 4	num_random_visit= 341 , thres_random_visit= 46889
+num_deter_visit= 16515 , thres_random_visit= 46889 , num_random_visit * maxRatio= 3410
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+num_deter_visit= 3524 , thres_random_visit= 46889 , num_random_visit * maxRatio= 20
+level: 4	num_random_visit= 7 , thres_random_visit= 46889
+num_deter_visit= 14118 , thres_random_visit= 46889 , num_random_visit * maxRatio= 70
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+level: 3	num_random_visit= 1 , thres_random_visit= 35166
+num_deter_visit= 1 , thres_random_visit= 35166 , num_random_visit * maxRatio= 10
+level: 4	num_random_visit= 16 , thres_random_visit= 46889
+num_deter_visit= 10017 , thres_random_visit= 46889 , num_random_visit * maxRatio= 160
+level: 2	num_random_visit= 6 , thres_random_visit= 23444
+num_deter_visit= 6 , thres_random_visit= 23444 , num_random_visit * maxRatio= 60
+probe cost est time: 0.003474
+maxStep= 5
+trunStep= 5
+2	0	246	1102
+3	0	81	12116
+4	0	380	44188
+5	1	0	0
+calculateResult time: 0.681764
+walk tree time cost: 2.46854
+../dataset/elib/exp_cites_output/result3 323318
+node: 16517160 438748	deterministically bfs one hop: 3 , 4e-06s
+tree construction time: 1.13573
+walk tree size: 7963
+2	lvl size: 18	sampleLvl size:5
+3	lvl size: 60	sampleLvl size:5
+4	lvl size: 1198	sampleLvl size:5
+5	lvl size: 6683	sampleLvl size:5
+level: 2	num_random_visit= 19 , thres_random_visit= 23444
+num_deter_visit= 39 , thres_random_visit= 23444 , num_random_visit * maxRatio= 190
+level: 2	num_random_visit= 16 , thres_random_visit= 23444
+num_deter_visit= 29 , thres_random_visit= 23444 , num_random_visit * maxRatio= 160
+level: 4	num_random_visit= 10 , thres_random_visit= 46889
+num_deter_visit= 101 , thres_random_visit= 46889 , num_random_visit * maxRatio= 100
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 41 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 49 , thres_random_visit= 58611
+num_deter_visit= 55945 , thres_random_visit= 58611 , num_random_visit * maxRatio= 490
+level: 4	num_random_visit= 2 , thres_random_visit= 46889
+num_deter_visit= 12481 , thres_random_visit= 46889 , num_random_visit * maxRatio= 20
+level: 5	num_random_visit= 1 , thres_random_visit= 58611
+num_deter_visit= 1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 10
+level: 2	num_random_visit= 8 , thres_random_visit= 23444
+num_deter_visit= 8 , thres_random_visit= 23444 , num_random_visit * maxRatio= 80
+level: 3	num_random_visit= 15 , thres_random_visit= 35166
+num_deter_visit= 77 , thres_random_visit= 35166 , num_random_visit * maxRatio= 150
+level: 4	num_random_visit= 9 , thres_random_visit= 46889
+num_deter_visit= 20468 , thres_random_visit= 46889 , num_random_visit * maxRatio= 90
+level: 5	num_random_visit= 184 , thres_random_visit= 58611
+num_deter_visit= -1 , thres_random_visit= 58611 , num_random_visit * maxRatio= 1840
+level: 4	num_random_visit= 7 , thres_random_visit= 46889
+num_deter_visit= 21102 , thres_random_visit= 46889 , num_random_visit * maxRatio= 70
+level: 5	num_random_visit= 415 , thres_random_visit= 58611
+level: 4	num_random_visit= 1 , thres_random_visit= 46889
+num_deter_visit= 1 , thres_random_visit= 46889 , num_random_visit * maxRatio= 10
+level: 5	num_random_visit= 6 , thres_random_visit= 58611
+level: 2	num_random_visit= 1 , thres_random_visit= 23444
+num_deter_visit= 1 , thres_random_visit= 23444 , num_random_visit * maxRatio= 10
+level: 3	num_random_visit= 19 , thres_random_visit= 35166
+num_deter_visit= 57 , thres_random_visit= 35166 , num_random_visit * maxRatio= 190
+level: 3	num_random_visit= 25 , thres_random_visit= 35166
+num_deter_visit= 58 , thres_random_visit= 35166 , num_random_visit * maxRatio= 250
+level: 2	num_random_visit= 19 , thres_random_visit= 23444
+num_deter_visit= 36 , thres_random_visit= 23444 , num_random_visit * maxRatio= 190
+level: 3	num_random_visit= 2 , thres_random_visit= 35166
+num_deter_visit= 34 , thres_random_visit= 35166 , num_random_visit * maxRatio= 20
+probe cost est time: 0.0024
+maxStep= 5
+trunStep= 5
+2	0	63	113
+3	0	63	267
+4	0	29	54153
+5	1	50	55946
+calculateResult time: 0.677859
+walk tree time cost: 1.81701
+../dataset/elib/exp_cites_output/result4 116050
+terminate called after throwing an instance of 'nlohmann::detail::type_error'
+  what():  [json.exception.type_error.302] type must be string, but is null

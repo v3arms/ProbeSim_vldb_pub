@@ -18,9 +18,8 @@ Libraries Required:
 using json = nlohmann::json;
 
 void usage() {
-	cerr << "./ssrank [data_dir] [query_file] [-o <output dir, default: 'data_dir_name_output'>] [ -e<eps, default: 0.005>] " << endl;
+	cerr << "./ssrank [data_dir] [query_file] [-o <output dir, default: 'data_dir_name_output'>] [ -e<eps, default: 0.005>] [ -k<topk, default: 200>]" << endl;
 	cerr << "data_dir format :\ndata_dir/\n\tgraph.edgelist\n\tid2node.json\n\tnode2id.json\n";
-	// cerr << "Example : ./ssrank nppro query/0.query -q query/0.query" << endl;
 	exit(EXIT_SUCCESS);
 }
 
@@ -35,9 +34,10 @@ int main(int argc, char** argv){
 	if (argc < 3) 
 		usage();
 
-	string data_dir(argv[1]), queryfile(argv[2]), output_dir(data_dir + "_output");
+	string data_dir(argv[1]), queryfile(argv[2]);
 	if (data_dir.back() == '/')
 		data_dir.pop_back();
+	string output_dir(data_dir + "_output");
 
 	for (int i = 3; i < argc; i++) {
 		if (!strncmp(argv[i], "-e", 2))
@@ -58,7 +58,7 @@ int main(int argc, char** argv){
 	node2idStream.open(data_dir + "/node2id.json", ios_base::in);
 	id2nodeStream.open(data_dir + "/id2node.json", ios_base::in);
 	if (errno != 0) {
-		cerr << strerror(errno) << endl;
+		cerr << "Failed to open mapping files. " + string(strerror(errno)) << endl;
 		return 0;
 	}
 	if (stat(output_dir.c_str(), &st) == -1)
@@ -76,7 +76,7 @@ int main(int argc, char** argv){
 	queryNode.pop_back();
 
 	if (queryNode.empty()) {
-		std::cout << "No queries given in query file\n";
+		std::cout << "Query file is empty.\n";
 		return 0;
 	}
 	SimStruct sim = SimStruct(data_dir + "/graph.edgelist", eps); 
@@ -84,14 +84,15 @@ int main(int argc, char** argv){
 	for(int i = 0; i < queryNode.size(); i++){
 		if (queryNode[i] == "\n") break;	
 		try {
-			id2node.at(queryNode[i]);
+			id2node[queryNode[i]];
 		} catch (...) {
 			// std::cout << e.what() << std::endl;
 			cout << "Mapping error, node " << queryNode[i] << endl;
 			cout << "Skipping this node..\n";
-			return 0;
+			continue;
 		}
 		cout << "node: " << queryNode[i] << " " << id2node[queryNode[i]] << "\t";
+
 		auto sims = sim.batch(id2node[queryNode[i]]);
 
 		stringstream ss_out;
@@ -101,10 +102,17 @@ int main(int argc, char** argv){
 		std::cout << ss_out.str() << " " << sims.size() << std::endl;
 
 		if (topk <= 0)
-			topk = sims.size();
-		for(int j = 0; j < topk; j++)
-			of_res << queryNode[i] << "," << node2id[to_string(int(sims[j].first))].get<std::string>() << "," << sims[j].second << '\n';
-		
+			topk = min(size_t(200), sims.size());
+		for(int j = 0; j < topk; j++) {
+			try {
+				node2id[to_string(sims[j].first)].get<std::string>();
+			} catch (exception& e) {
+				// cerr << "node2id failed! Strange error.\n";
+				cerr << e.what() << endl;
+				continue;
+			}
+			of_res << queryNode[i] << "," << node2id[to_string(sims[j].first)].get<std::string>() << "," << sims[j].second << '\n';
+		}
 		of_res.flush(); 
 		of_res.close();
 	}
