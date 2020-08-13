@@ -11,10 +11,8 @@ from os.path import splitext
 import os
 
 
-def f7(seq):
-    seen = set()
-    seen_add = seen.add
-    return [x for x in seq if not (x in seen or seen_add(x))]
+# input  - .xlsx file in format like nppro.lxlsx
+# output - folder with graph matrix representation, can be used as input to the simrank program
 
 
 if len(sys.argv) < 2 :
@@ -73,6 +71,9 @@ except OSError :
 
 output_file = "graph.edgelist"
 G = nx.from_scipy_sparse_matrix(A, create_using=nx.DiGraph)
+
+print('Adj matrix size :', A.shape)
+
 nx.write_edgelist(G, output_dir + '/' + output_file, data=False)
 
 
